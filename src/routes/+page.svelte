@@ -7,7 +7,14 @@
 
     import { onMount } from 'svelte';
       
-      
+      //nav
+    //   let navClass = " ";
+
+    //   onMount (() => {
+    //     window.addEventListener("scroll", () => {
+    //         navClass = window.screenY > 0 ? "window-scroll"
+    //     });
+    //   });
     
     
     /*================open & close===================*/
@@ -96,11 +103,11 @@
     
     
     
-            <nav class=" shadow-md bg-white flex justify-between items-center h-[5rem] px-[1rem] fixed w-full md:px-[2rem] lg:px-[6rem] z-50">
+            <nav class=" bg-white flex justify-between items-center h-[5rem] px-[1rem] fixed w-full md:px-[2rem] lg:px-[6rem] z-50">
     
                 <a href="#slow">
                     <div class="logo">
-                        <h4 class=" font-thin rounded-[50%] font-bold p-2 h-10 w-10  text-white bg-gradient-to-r from-cyan-500 to-teal-500 lg:font-bold lg:w-12 lg:h-12 lg:p-3">F.E</h4>
+                        <h4 class=" rounded-[50%] font-medium p-2 h-10 w-10  text-white bg-gradient-to-r from-cyan-500 to-teal-500 lg:font-bold lg:w-12 lg:h-12 lg:p-3">F.E</h4>
                     </div>
                 </a>
         
@@ -147,11 +154,11 @@
         
         
         
-            <header id="slow" class="pt-[9rem] lg:pt-[6rem] pb-[7rem] text-center px-[2rem] md:px-[2.5rem] md:flex md:justify-center md:items-center lg:px-[6rem] lg:w-full">
+            <header id="slow"  class="pt-[9rem] lg:pt-[6rem] pb-[7rem] text-center px-[2rem] md:px-[2.5rem] md:flex md:justify-center md:items-center lg:px-[6rem] lg:w-full">
         
-                <div class="header-top md:pt-[6rem] lg:text-left lg:w-[50%]">
-                    <span class="text-slate-700 text-lg font-serif">Hello, my name is</span>
-                    <h1 class=" font-serif text-teal-500 font-extrabold text-[2rem] lg:text-5xl">{typedMessage}</h1>
+                <div class=" relative header-top md:pt-[6rem] lg:text-left lg:w-[50%]">
+                    <span class=" text-slate-700 text-lg font-serif">Hello, my name is</span>
+                    <h1 class=" absolute overflow-hidden left-0 top-0 font-serif text-teal-500 font-extrabold text-[2rem] lg:text-5xl">{typedMessage}</h1>
                     <p class="pt-[1rem] text-slate-700  font-serif lg:w-[90%]">
                         I am a skilled and motivated front-end developer who is committed to delivering top-quality
                         results, and am excited to contribute my skills and experience to new projects and teams.
@@ -184,12 +191,14 @@
         <section id="about" class="px-[1rem] md:px-[2rem] lg:px-[6rem] pt-[2rem]">
             <h2 class="font-extrabold text-lg text-center text-slate-700 pb-[2rem]">About Me</h2>
             <h3  class=" text-teal-600 font-bold text-[1.2rem] pb-[.5rem]">Frontend Developer</h3>
-            <p class="leading-7  font-serif pb-[2rem] text-slate-700">I am a versatile and experienced Frontend Developer, with a wealth of kwnoledge in
-               Codeside Academy. My portfolio is as sample of my work, demonstrating my skills and
-               my ability to deliver results. I am always looking for new opportunities to learn,
-               grow and to push the boundaries of what is possible.  I also build a responsive website
-               for your business growth make the it more & more interactive with web animations.A responsive
-               design makes your website accessible to all users, regardless of their devices.
+            <p class="leading-7 font-serif mb-[2rem] text-slate-700 shadow-xl rounded-xl p-[1.5rem] lg:p=[2.5rem]">
+                I am a frontend developer with experience in HTML, CSS, and JavaScript, as well as popular frameworks like TailwindCSS and SvelteKit.
+                Passionate about creating visually appealing and user-friendly websites, and believes that great design and user experience
+                are crucial for the success of any website. During my internship at Codeside Adedemy, I worked on a variety of projects, including developing
+                a responsive e-commerce website and creating an interactive dashboard for a data analytics client. I am committed to collaborating with
+                designers, product owners, and other developers to deliver high-quality products that meet user needs and business goals. In my free time,
+                I contributes to open-source projects and attends web development conferences and meetups to stay up-to-date with the latest frontend technologies
+                and trends. Click the button below and let's work together.
             </p>
             <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] hover:text-slate-700 rounded-sm transition-all hover:bg-none duration-400 delay-300 border-[.1rem] border-cyan-500" href="#contact">Let's talk</a>
         </section>
@@ -229,7 +238,7 @@
             
     
             <h2 class=" font-extrabold text-lg text-center text-slate-700 pb-[2rem] pt-[3rem]">Experience</h2>
-            <h3 class=" text-teal-600 font-bold text-[2rem] pb-[1rem]">@ Codeside Academy >>>></h3>
+            <h3 class=" text-teal-600 font-bold text-[1.8rem] pb-[1rem]">@ Codeside Academy >>>></h3>
             <ul class=" list-disc px-[1rem] text-slate-700">
                 <li>Collaborated with senior developers to create and maintain web applications using HTML, CSS, and JavaScript</li>
                 <li>Assisted with the design and implementation of user-friendly and responsive interfaces, utilizing popular front-end frameworks such as SvelteKit and TailwindCSS</li>
