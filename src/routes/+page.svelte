@@ -135,7 +135,7 @@
                     
                         
                     <div>
-                            <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center  font-medium h-full gap-[2rem] pt-[4rem] bg-cyan-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
+                            <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center  font-medium h-full gap-[2rem] pt-[4rem] bg-gradient-to-r from-cyan-500 to-teal-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
                                 <li class="after:bg-white lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.1rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#home">Home</a></li>
                                 <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#about">About</a></li>
                                 <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#experience">Experiecnce</a></li>
@@ -211,7 +211,7 @@
     
         <section id="about" class="px-[1rem] md:px-[2rem] lg:px-[6rem] pt-[2rem]">
             <h2 class="font-extrabold text-lg text-center text-slate-700 pb-[2rem]">About Me</h2>
-            <h3  class=" bg-cyan-500 text-white font-bold py-[2rem] px-[1rem] text-[1.2rem] shadow-md rounded-t-xl">Frontend Developer</h3>
+            <h3  class="bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-bold py-[2rem] px-[1rem] text-[1.2rem] shadow-md rounded-t-xl">Frontend Developer</h3>
             <p class="leading-7 font-serif mb-[2rem] text-slate-700 shadow-xl rounded-xl py-[1.5rem] px-[1rem] lg:p-[2rem]">
                 I am a frontend developer with experience in HTML, CSS, and JavaScript, as well as popular frameworks like TailwindCSS and SvelteKit.
                 Passionate about creating visually appealing and user-friendly websites, and believes that great design and user experience
@@ -259,7 +259,7 @@
             
     
             <h2 class=" font-extrabold text-lg text-center text-slate-700 pb-[2rem] pt-[3rem]">Experience</h2>
-            <h3 class=" text-white bg-cyan-500 py-[2rem] px-[1rem] font-medium text-[1.5rem] rounded-t-xl shadow-md">@ Codeside Academy >>>></h3>
+            <h3 class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 py-[2rem] px-[1rem] font-medium text-[1.5rem] rounded-t-xl shadow-md">@ Codeside Academy >>>></h3>
             <ul class=" list-disc rounded-xl text-slate-700 shadow-xl py-[1.5rem] px-[1rem] lg:p-[2rem]">
                 <li>Collaborated with senior developers to create and maintain web applications using HTML, CSS, and JavaScript</li>
                 <li>Assisted with the design and implementation of user-friendly and responsive interfaces, utilizing popular front-end frameworks such as SvelteKit and TailwindCSS</li>
@@ -314,8 +314,8 @@
                     <img src="contact-img.png" alt="">
                     <p class=" font-serif">If you have questions or just want to get in touch,use the form below. I look forward to hear from you</p>
                  </div>
-                 <form action="https://formspree.io/f/xjvdpvbg" method="POST" class="flex flex-col bg-cyan-500  rounded-xl p-[2rem] gap-[1rem] mt-[2rem] md:p-[2rem] lg:w-[50%] lg:p-[3rem]">
-                    <h3 class=" text-center text-lg font-semibold pb-[1rem]">Get in touch</h3>
+                 <form action="https://formspree.io/f/xjvdpvbg" method="POST" class="flex flex-col bg-gradient-to-r from-cyan-500 to-teal-500  rounded-xl p-[2rem] gap-[1rem] mt-[2rem] md:p-[2rem] lg:w-[50%] lg:p-[3rem]">
+                    <h3 class=" text-center text-white text-lg font-semibold pb-[1rem]">Get in touch</h3>
                     <input type="text" placeholder="First Name" name="First Name" required class=" py-[.4rem]  px-[.9rem] placeholder:font-mono font-mono rounded-xl border-none outline-none text-slate-600">
                     <input type="text" placeholder="Surname" name="Surname" required class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none font-mono placeholder:font-mono  text-slate-600">
                     <input type="email" placeholder="Your email" name="email" required class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none placeholder:font-mono font-mono  text-slate-600">
